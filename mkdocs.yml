@@ -19,28 +19,21 @@ theme:
   font:
     text: Fira Sans
     code: Fira Mono
-  palette: 
-    - media: "(prefers-color-scheme)"
-      scheme: slate
-      primary: deep purple
-      accent: deep purple
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: default
-      primary: deep purple
-      accent: deep purple
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: slate
-      primary: deep purple
-      accent: deep purple
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
+  palette:
+  - media: '(prefers-color-scheme: dark)'
+    scheme: slate
+    primary: deep purple
+    accent: deep purple
+    toggle:
+      icon: material/weather-night
+      name: Switch to light mode
+  - media: '(prefers-color-scheme: light)'
+    scheme: default
+    primary: deep purple
+    accent: deep purple
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to dark mode
 
 extra: 
   social:
