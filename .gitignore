@@ -1,0 +1,10 @@
+# Python
+venv
+
+# Blog files
+.cache
+
+# Editors
+.vscode
+.idea
+styles
