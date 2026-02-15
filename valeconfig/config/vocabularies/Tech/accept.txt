@@ -9,3 +9,4 @@ Syncthing
 Obsidian
 Tinymist
 glossarium
+Lightroom
