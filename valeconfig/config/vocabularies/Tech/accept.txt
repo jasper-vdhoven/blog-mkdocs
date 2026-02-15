@@ -1,0 +1,11 @@
+Typst
+git [s]ubmodule
+PDFs
+VSCode
+Evernote
+cherrytree
+Joplin
+Syncthing
+Obsidian
+Tinymist
+glossarium
