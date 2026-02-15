@@ -1,0 +1,82 @@
+site_name: Jasper's Blog
+site_url: https://blog.bollos.nl
+site_description: Jasper's Blog
+
+theme:
+  name: material
+  features:
+    - navigation.tracking
+    # - navigation.tabs
+    - navigation.sections
+    - navigation.prune
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - toc.follow
+  logo: ./assets/bollos.png
+  favicon: ./assets/bollos-icon.png
+  language: en
+  font:
+    text: Fira Sans
+    code: Fira Mono
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+extra:
+  social:
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/saszper
+    - icon: fontawesome/brands/github
+      link: https://github.com/jasper-vdhoven
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - privacy
+  - blog:
+      pagination_per_page: 5
+      categories: true
+      categories_name: Topics
+  - search
+  - glightbox:
+      effect: zoom
+      height: auto
+      loop: false
+      touchNavigation: true
+      zoomable: true
+
+nav:
+  - Home: index.md
+  - Blog:
+      - blog/index.md
+  - Software Projects:
+      - projects/openbsm_parser.md
