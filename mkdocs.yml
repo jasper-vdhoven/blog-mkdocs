@@ -13,11 +13,12 @@ theme:
     - navigation.indexes
     - navigation.footer
     - toc.follow
+    - content.footnote.tooltips
   logo: ./assets/bollos.png
   favicon: ./assets/bollos-icon.png
   language: en
   font:
-    text: Fira Sans
+    text: Funnel Display
     code: Fira Mono
   palette:
     - media: "(prefers-color-scheme: dark)"
