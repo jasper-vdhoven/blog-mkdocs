@@ -47,8 +47,8 @@ especially since at the time Google was still good enough.
 
 What's the appeal or pitch of Kagi, in case you're not familiar? Kagi's own
 article on this sums it up well [^2]. Instead of using the service for 'free'
-and getting bombarded with ads, bought top results, or other dark patters you
-pay and get the results you want:
+and getting bombarded with ads, sponsored top results, or other dark patterns,
+with Kagi you pay an upfront cost and get the results you want.
 
 <figure markdown="span">
 	![Search engine comparisons by Kagi](./images/Writing/kagi-search-engines.avif){loading=lazy}
