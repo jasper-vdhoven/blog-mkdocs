@@ -1,6 +1,7 @@
 ---
 date:
   created: 2026-02-15
+  updated: 2026-02-16
 title: Paying for search
 description: Switching to Kagi for all things search
 categories:
@@ -115,7 +116,7 @@ this site serves a lot of trackers/ ads:
 </figure>
 
 Through this ranking mechanism you can decide yourself which websites you want
-featured more prominently, or which ones to down rank or filter out outright.
+featured more prominently, which ones to down rank or filter out outright.
 
 ### Wikipedia results navigation
 
@@ -138,8 +139,8 @@ UX benefit across.
   </video>
 </figure>
 
-Now, let's compare how Kagi's results and this Wikipedia UX stacks up to the
-competition: Google and DuckDuckGo. First up is Kagi's to set a baseline of
+Now, let's compare how Kagi's results and this Wikipedia UX stacks up against
+the competition: Google and DuckDuckGo. First up is Kagi's to set a baseline of
 sorts:
 
 <figure markdown="span">
@@ -164,16 +165,15 @@ look at how Google fares.
 	![Google search results for Neurocysticercosis](./images/Writing/google-results-Neurocysticercosis.avif){loading=lazy}
 </figure>
 
-Now what are we looking at here? Most of the screen--a 14" MacBook Pro--and all
-that's visible is the AI summary with a single reference link for further
-reading. The page also feels zoomed-in, as if I were viewing it at 200% page
-zoom.
+Now what are we looking at here? Most of the screen--a 14" MacBook Pro--is the
+AI summary with a single reference link for further reading. The page also
+feels zoomed-in, as if I were viewing it at 200% page zoom.
 
 ## Additional services
 
-Enough about search. Kagi also provides a suite of other services which are
-bundled with your subscription. Some of these are Kagi News, Translate and their
-Orion browser.
+Enough about search. Kagi also provides a suite of other services bundled with
+your subscription. Some of these are Kagi News, Translate and their Orion
+browser.
 
 ### News
 
