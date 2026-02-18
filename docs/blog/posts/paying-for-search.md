@@ -81,7 +81,7 @@ who wish to not see them to not have to see them, genius!
 
 ### Lenses
 
-First are what Kagi calls 'lenses'. Lenses allow you to tailor your results
+Next are what Kagi calls 'lenses'. Lenses allow you to tailor your results
 to fit a desired source or type of results [^4]. Below are some of the defaults
 provided by Kagi:
 
